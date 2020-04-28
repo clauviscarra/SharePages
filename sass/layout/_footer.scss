@@ -1,0 +1,114 @@
+    /* FOOTER STYLING */
+
+    .footer{
+       
+        position: relative;
+        display: table;
+        width: 100%;
+        background-color: transparent;
+     
+  
+      &__cell{
+        padding:5rem;
+        display: table-cell;
+        width: 50%;
+        vertical-align: middle;
+
+        @include respond(phone){
+        width: 100%;
+                padding: 10rem 0 0 0;
+
+
+        }
+
+        &--left{
+            text-align: left;
+
+            @include respond(phone){
+                display: none;
+
+            }
+      
+          }
+
+          &--right{
+            text-align: right;
+
+            @include respond(phone){
+                text-align: center;
+
+            }
+      
+      
+          }
+      }
+
+     
+
+    }
+  
+    
+  
+   
+  
+      /* SOCIAL MEIDA ICON STYLING */
+  
+    .fa {
+    padding: 9px;
+    font-size: 2rem;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: $color-white 1px solid;
+    transition: all .3s ease;
+    
+    @include respond(phone){
+        background-color: rgba($color-primary-dark, 0.5);
+    }
+
+    &:hover {
+        transform: translateY(-5px);
+        color: white;
+          text-decoration:none;
+      
+      }
+
+      &-facebook {
+        color: white;
+        text-decoration:none;
+      }
+
+      &-twitter {
+        color: white;
+        text-decoration:none;
+      }
+      
+      
+      &-linkedin {
+        color: white;
+        text-decoration:none;
+      }
+      
+      &-youtube {
+        color: white;
+        text-decoration:none;
+      }
+      
+      &-instagram {
+        color: white;
+        text-decoration:none;
+      }
+
+
+
+
+  }
+  
+ 
+  
+ 
+  
+ 
+  

@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+
+body{
+    
+    box-sizing: border-box;
+    padding: 3rem;
+    background-image: url('https://image.act.aipac.org/lib/fe89137374600c7b7c/m/3/f6e0aea6-9453-4e13-a085-64c1769685d4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    transition: background-image .2s ease;
+
+
+
+    @media (max-width:56.25em){
+        background-image:   linear-gradient(
+            to left bottom, 
+            rgba($color-primary, 0.5), rgba($color-primary-dark, 0.8)), url('https://image.act.aipac.org/lib/fe89137374600c7b7c/m/3/f6e0aea6-9453-4e13-a085-64c1769685d4.png');
+
+
+    }
+
+}
+
+.wrapper{
+    max-width: 128rem; 
+    margin: 0 auto;
+
+}
+
+// VIDYARD RESET
+
+.header-logo-container{
+    display: none !important;
+  }

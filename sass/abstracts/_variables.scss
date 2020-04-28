@@ -1,0 +1,42 @@
+//Color
+
+$color-primary: #252161;
+$color-primary-light: #14d6f6;
+$color-primary-dark:#0c1a43;
+
+$color-grey-light-1:#f7f7f7;
+$color-grey-light-2:#eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+
+$color-secondary-light:#d0202f;
+$color-secondary-dark: #8e1833;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+
+//Grid
+
+$grid-width:114rem; //equivalent of 1140px, which is a standard unit - we already established that 10px = 1 rem on our body conversion in _base.scss
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizongal: 6rem;
+
+//font-sizes
+
+$default-font-size: 1.6rem;
+
+//box-shadow
+
+$box-shadow: 0 1.5rem 40rem rgba($color-black, .15);
+
+//testing
+
+$tester-line: 1px solid green;
