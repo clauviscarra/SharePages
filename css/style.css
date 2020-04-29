@@ -19,7 +19,7 @@ body {
   transition: background-image .2s ease; }
   @media (max-width: 56.25em) {
     body {
-      background-image: linear-gradient(to left bottom, rgba(37, 33, 97, 0.5), rgba(12, 26, 67, 0.8)), url("https://image.act.aipac.org/lib/fe89137374600c7b7c/m/3/f6e0aea6-9453-4e13-a085-64c1769685d4.png"); } }
+      background-image: linear-gradient(to left bottom, rgba(37, 33, 97, 0.2), rgba(12, 26, 67, 0.5)), url("https://image.act.aipac.org/lib/fe89137374600c7b7c/m/3/f6e0aea6-9453-4e13-a085-64c1769685d4.png"); } }
 
 .wrapper {
   max-width: 128rem;
@@ -105,7 +105,8 @@ p {
   .fa:hover {
     transform: translateY(-5px);
     color: white;
-    text-decoration: none; }
+    text-decoration: none;
+    background-color: rgba(12, 26, 67, 0.8); }
   .fa-facebook {
     color: white;
     text-decoration: none; }
