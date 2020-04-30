@@ -270,26 +270,26 @@ p {
     width: 100%; }
     .mobile-navigation__list--dropdown {
       position: relative;
-      display: inline-block;
       transition: all .2s ease;
       z-index: 1600; }
       .mobile-navigation__list--dropdown-content {
         display: none;
         z-index: 2000;
-        position: relative;
-        width: 120%;
-        transition: all .7s ease; }
+        width: 100%; }
         .mobile-navigation__list--dropdown-content a {
           font-size: 2rem;
           color: #fff;
-          text-align: left;
+          text-align: center;
           padding: 1rem;
           text-decoration: none;
-          display: block; }
+          display: block;
+          transition: all .2s ease; }
           .mobile-navigation__list--dropdown-content a:hover {
+            transform: scale(1.1);
             background-color: #8e1833; }
       .mobile-navigation__list--dropdown:hover .mobile-navigation__list--dropdown-content {
-        display: block; }
+        display: inline-block;
+        opacity: 1; }
   .mobile-navigation__item {
     margin: 1rem; }
   .mobile-navigation__link:link, .mobile-navigation__link:visited {
