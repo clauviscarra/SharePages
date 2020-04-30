@@ -141,7 +141,7 @@ p {
   width: 100%; }
   @media (max-width: 37.5em) {
     .navigation {
-      padding: 0; } }
+      padding: 3rem; } }
   .navigation__logo {
     display: table-cell;
     text-align: left;
@@ -149,7 +149,7 @@ p {
     width: 20%; }
     @media (max-width: 37.5em) {
       .navigation__logo img {
-        width: 50%; } }
+        width: 30%; } }
   .navigation__nav {
     display: table-cell;
     text-align: right;
@@ -158,6 +158,31 @@ p {
     @media (max-width: 56.25em) {
       .navigation__nav {
         display: none; } }
+  .navigation__dropdown {
+    position: relative;
+    display: inline-block;
+    transition: all .2s ease;
+    z-index: 100; }
+    .navigation__dropdown:hover .navigation__dropdown--content {
+      transform: translateY(0);
+      opacity: 1; }
+    .navigation__dropdown--content {
+      opacity: 0;
+      transform: translateY(-4rem);
+      position: absolute;
+      width: 100%;
+      transition: all .5s ease; }
+      .navigation__dropdown--content a {
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+        display: block;
+        background-color: rgba(12, 26, 67, 0.9);
+        transition: all .2s ease; }
+        .navigation__dropdown--content a:hover {
+          transform: scale(1.2);
+          box-shadow: 0 1.5rem 2rem rgba(0, 0, 0, 0.4); }
   .navigation__link {
     font-size: 1rem;
     color: #fff;
@@ -169,6 +194,10 @@ p {
     font-weight: 700;
     border-bottom: none;
     transition: all .3s; }
+    .navigation__link--caret {
+      display: inline-block;
+      transform: rotate(-90deg);
+      color: white !important; }
     .navigation__link span {
       color: #d0202f;
       transition: color .3s; }

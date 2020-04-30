@@ -5,7 +5,7 @@
     width: 100%;
 
     @include respond(phone){
-        padding: 0;
+        padding: 3rem;
     }
 
 
@@ -18,7 +18,7 @@
 
         @include respond(phone){
             img{
-                width:50%;
+                width:30%;
             }
         }
 
@@ -40,6 +40,56 @@
 
     }
 
+    &__dropdown{
+        position: relative;
+        display: inline-block;
+        transition: all .2s ease;
+        z-index: 100;
+
+
+        &:hover &--content{
+            // display: block;
+            transform: translateY(0);
+            opacity: 1;
+
+        }
+
+        &--content{
+            
+            // display: none;
+            opacity: 0;
+            transform: translateY(-4rem);
+            position: absolute;
+            width: 100%;
+            transition: all .5s ease;
+            // background-color: rgba($color-primary-dark, 0.6);
+
+
+
+
+
+            & a{
+                color:$color-white;
+                text-align: center;
+                padding: 1rem;
+                text-decoration: none;
+                display: block;
+                background-color: rgba($color-primary-dark, 0.9);
+
+                transition: all .2s ease;
+
+                &:hover{
+                    transform: scale(1.2);
+                    box-shadow: $box-shadow;
+                    // letter-spacing: .1rem;
+                }
+
+
+
+            }
+        }
+    }
+
     &__link{
         
         font-size: 1rem;
@@ -54,12 +104,19 @@
 
         transition: all .3s;
 
+        &--caret{
+            display: inline-block;
+            transform: rotate(-90deg);
+            color:white !important;
+        }
+
         & span{
             color: $color-secondary-light;
             transition: color .3s;
 
 
         }
+
 
 
 
