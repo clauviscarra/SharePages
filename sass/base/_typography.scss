@@ -14,10 +14,8 @@ h1{
     
 
     color: $color-white !important;
-    text-transform: uppercase !important;
-
     backface-visibility: hidden !important; /*in case your keyframe animation is shakey*/
-    margin-bottom: 6rem !important;
+    
 
    
     
@@ -56,9 +54,9 @@ h3{
 p{
     font-size: 1rem;
     color: $color-white;
-    &:not(:last-child){
-        margin-bottom: 3rem;
-    }
+    // &:not(:last-child){
+    //     margin-bottom: 3rem;
+    // }
 
 }
 

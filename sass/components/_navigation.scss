@@ -231,14 +231,14 @@
        width: 100%;
 
         &--dropdown{
-            position: relative;
+     position: relative;
         display: inline-block;
         transition: all .2s ease;
         z-index: 1600;
 
         &-content{
-            z-index: 2000;
             display: none;
+            z-index: 2000;
             position: relative;
             width: 120%;
             transition: all .7s ease;
@@ -252,11 +252,10 @@
                 display: block;
 
                 &:hover{
-                    transform: scale(1.1);
+                    background-color: $color-secondary-dark;
                 }
 
-
-              
+            
 
 
 
@@ -264,11 +263,12 @@
 
         }
 
-
         &:hover &-content{
-           display: block;
-
+            display: block;
         }
+
+
+
 
             
         }
