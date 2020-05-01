@@ -33,6 +33,10 @@ body {
   margin-top: 2rem !important;
   padding: 1rem !important; }
 
+#sharing-description .description-container {
+  margin-bottom: 0 !important;
+  padding-top: 0 !important; }
+
 body.light #sharing-description:not(.force-white) {
   color: #fff !important;
   text-shadow: 2px 2px 8px #000; }
@@ -132,7 +136,7 @@ p {
     text-decoration: none; }
 
 .navigation {
-  padding: 2rem 4rem;
+  padding: 2rem 4rem 1rem 4rem;
   display: table;
   width: 100%; }
   @media (max-width: 37.5em) {
@@ -170,7 +174,7 @@ p {
       transition: all .7s ease; }
       .navigation__dropdown--content a {
         color: #fff;
-        font-size: 1rem;
+        font-size: 1.2rem;
         text-align: left;
         padding: 1rem;
         text-decoration: none;

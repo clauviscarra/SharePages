@@ -33,13 +33,6 @@ h2{
     color: transparent;
     letter-spacing: 2px;
 
-    // @include respond(tab-port){
-    //     font-size: 3rem;
-    //     }
-
-    // @include respond(phone){
-    //      font-size: 2.5rem;
-    //     }
 
 
 }
@@ -54,9 +47,7 @@ h3{
 p{
     font-size: 1rem;
     color: $color-white;
-    // &:not(:last-child){
-    //     margin-bottom: 3rem;
-    // }
+
 
 }
 

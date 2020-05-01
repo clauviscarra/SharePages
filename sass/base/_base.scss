@@ -51,6 +51,11 @@ body{
     padding: 1rem !important;
   
   }
+
+  #sharing-description .description-container{
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
   
   body.light #sharing-description:not(.force-white){
     color: #fff !important;
