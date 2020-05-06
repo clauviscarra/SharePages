@@ -1,8 +1,8 @@
-@import url("https://use.typekit.net/kgy6rsn.css");
+@import url("https://use.typekit.net/ezv1owq.css");
 
 
 body{
-    font-family: montserrat, sans-serif;
+    font-family: linotype-sabon, sans-serif;
     font-weight: 400;
     line-height: 1.7;
     color: $color-grey-dark;
@@ -13,7 +13,7 @@ body{
 h1{
     
 
-    color: $color-white !important;
+    color: $color-secondary-light !important;
     backface-visibility: hidden !important; /*in case your keyframe animation is shakey*/
     
 
@@ -46,7 +46,7 @@ h3{
 
 p{
     font-size: 1rem;
-    color: $color-white;
+    color: $color-primary;
 
 
 }
