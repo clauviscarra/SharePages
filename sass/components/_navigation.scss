@@ -19,6 +19,12 @@
         
         & img{
             width: 20rem;
+            transition: transform .2s ease;
+
+            &:hover{
+                transform: translateY(-7px);
+                cursor: pointer;
+            }
         }
 
         @include respond(phone){
@@ -50,7 +56,8 @@
     &__link{
         
         font-size: 1.1rem;
-        color: $color-primary;
+        font-weight: 900;
+        color: $color-white;
         text-decoration: none;
         display: inline-block;
         padding: 0 2.5rem 1rem 2.5rem;
@@ -80,7 +87,7 @@
 
         &:hover{
             transform: translateY(-.7rem);
-            color: $color-primary-light;
+            color: $color-white;
             text-decoration: none;
     
         }
